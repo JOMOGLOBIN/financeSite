@@ -1,0 +1,69 @@
+
+body, html, ul, li, button {
+  margin: 0;
+  padding: 0;
+}
+
+div.menu {
+  background-color: orange;
+  height: 40px;
+}
+
+ul {
+  padding-top: 11px;
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+  float: right;
+  padding: 0 10px;
+  color: white;
+}
+
+li.title {
+  float: left;
+  margin-left: 0;
+  color: white;
+}
+
+.mainContent {
+  clear: both;
+  align-items: center;
+  background-color: cornsilk; /* Color change*/
+  height: 100vh;
+}
+
+.textBox { /* Because of float, the element is taken out of original flow. */
+  width: 200px;
+  height: 400px;
+  margin: 20px 10px;
+  float: left;
+  border: 2px orange;
+  border-style: solid;
+  border-radius: 4px;
+  padding: 10px 15px 0;
+  background-color: white;
+}
+
+.textBox p {
+  font-size: 12px;
+  width: 180px;
+  margin: 10px;
+}
+
+.textBox h3 {
+  margin: 10px auto 10px;
+  font-weight: 500;
+}
+
+button {
+  margin: 0 auto;
+  padding: 5px;
+  width: 200px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+
