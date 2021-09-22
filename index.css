@@ -11,18 +11,21 @@ div.menu {
 
 ul {
   padding-top: 11px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 li {
   list-style-type: none;
   display: inline;
-  float: right;
+  /* float: right; */
   padding: 0 10px;
   color: white;
 }
 
 li.title {
-  float: left;
+  /* float: left; */
+  flex-grow: 1;
   margin-left: 0;
   color: white;
 }
@@ -32,13 +35,16 @@ li.title {
   align-items: center;
   background-color: cornsilk; /* Color change*/
   height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .textBox { /* Because of float, the element is taken out of original flow. */
   width: 200px;
   height: 400px;
   margin: 20px 10px;
-  float: left;
+  /* float: left; */
   border: 2px orange;
   border-style: solid;
   border-radius: 4px;
